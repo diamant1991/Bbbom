@@ -87,11 +87,11 @@ nav{
 .nav li{
  	float: left;
  }
-	  .nav li a{
+	  .nav>li a{
 	  	display: block;
 	  	height: 37px;
-	  	padding-left: 30px;
-	  	padding-right: 30px;
+	  	padding-left: 27px;
+	  	padding-right: 27px;
 	  	padding-top: 13px;
 	  	font-family: Arial, sans-serif;
 	  	font-size: 11px;
@@ -99,11 +99,45 @@ nav{
 	  	-webkit-transition: all 0.2s;
 	  	-o-transition: all 0.2s;
 	  	transition: all 0.2s;
+	  	text-align: center;
+ 	 }
+ 	 .nav>li:first-child a{
+ 	 	width: 150px;
  	 }
  	 	.nav li a:hover, nav li a.active{
  	 		background: #ff7964;
 			
  	 	}
+ .nav .nav-child{
+	position: absolute;
+	height: 400px;
+	border: 1px solid #cbcbcb;
+	border-top: 0;
+	width: 150px;
+	padding-top: 30px;
+	padding-left: 20px;
+	line-height: 2.3;
+}
+.nav .nav-child a{
+	font-family: Tahoma, sans-serif;
+	color: #747474;
+	font-size: 10px;
+	padding: 0;
+	display: block;
+	background: none;
+	width: 100% !important;
+	height: auto;
+	text-transform: uppercase;
+	text-align: left;
+}
+ 	 	
+ 	 	.nav-child li{
+ 	 		float: none;
+ 	 	}
+ 	 		.nav-child li a:hover{
+ 	 			background: none;
+ 	 			text-decoration: underline;
+ 	 		}
 .search{
 	width: 170px;
 	float: right;
@@ -135,6 +169,7 @@ nav{
 	height: 200px;
 	text-align: center;
 	position: relative;
+	margin: 1px;
 }
 	.nh-block a:first-child:hover{
 		outline: 1px solid #e3e3e3;
@@ -924,4 +959,31 @@ footer>.container ul:first-child{
 	float: right;
 	position: relative;
 	top: -35px;
+}
+#contentContainer{
+	width: 1000px;
+	overflow: hidden;
+}
+.nh-content{
+	width: 3000px;
+    position: relative;
+    left: 0px;
+    transition: left .6s ease-in-out;
+}
+.content-item{
+	width: 1000px;
+	float: left;
+	white-space: normal;
+}
+.after-nav .main-banner{
+	height: 400px;
+	border: 1px solid #efefef;
+	border-left: 0;
+	border-top: 0;
+	width: 849px;
+	margin-left: 150px;
+	text-align: center;
+	font-size: 40px;
+	line-height: 5;
+
 }
