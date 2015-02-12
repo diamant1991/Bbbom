@@ -987,3 +987,445 @@ footer>.container ul:first-child{
 	line-height: 5;
 
 }
+footer{
+	background: #f4f4f4;
+	overflow: hidden;
+}
+.login{
+	padding-top: 100px;
+}
+.registration-block, .help-form{
+	float: left;
+	width: 340px;
+	line-height: 2;
+}
+	.registration-block h4{
+		font-family: Tahoma, sans-serif;
+		font-size: 14px;
+		color: #ffa192;
+	}
+	.enter-block h4{
+		font-family: Tahoma, sans-serif;
+		font-size: 14px;
+		margin-bottom: 14px;
+	}
+	.create{
+		width: 320px;
+		display: block;
+		height: 40px;
+		text-align: center;
+		text-transform: uppercase;
+		background: #ffa192;
+		margin-top: 75px;
+		font-family: Tahoma, sans-serif;
+		font-size: 14px;
+		color: #fff;
+		padding-top: 5px;
+	}
+	.registration-block input, .enter-block input, .recovery input, .help-form input{
+		height: 40px;
+		width: 320px;
+		outline: 0;
+		border: 1px solid #dedede;
+		margin-top: 25px;
+		padding-left: 15px;
+	}
+	.help-form textarea{
+		width: 320px;
+		outline: 0;
+		border: 1px solid #dedede;
+		font-family: Arial, sans-serif;
+		font-size: 12px;
+		padding-left: 15px;
+		padding-top: 10px;
+		margin-top: 25px;
+		height: 100px;
+		resize:none;
+	}
+	.code-image{
+		margin-top: 25px;
+		position: relative;
+	}
+	.code-image input{
+		width: 130px;
+		float: left;
+		margin-top: 0;
+		margin-left: 20px;
+		font-family: Tahoma, sans-serif;
+		font-size: 20px;
+		font-weight: bold;
+		color: #747474;
+		height: 40px;
+	}
+	.code-image-block{
+		width: 170px;
+		float: left;
+		height: 40px;
+		background: #dedede;
+	}
+.enter-block{
+	width: 320px;
+	float: right;
+}
+.enter-block .forgot-password{
+	float: right;
+	font-family: Tahoma, sans-serif;
+	font-size: 11px;
+	color: #8d8d8d;
+	margin-top: 10px;
+}	
+	.enter-block .forgot-password:hover{
+		text-decoration: underline;
+	}
+	 .enter-btn{
+		float: right;
+		display: block;
+		width: 130px;
+		height: 40px;
+		text-align: center;
+		text-transform: uppercase;
+		background: #ffa192;
+		margin-top: 63px;
+		font-family: Tahoma, sans-serif;
+		font-size: 14px;
+		color: #fff;
+		padding-top: 12px;
+	}
+	.refresh{
+		display: inline-block;
+		width: 28px;
+		height: 32px;
+		background: url(../images/refresh.jpg);
+		position: absolute;
+		right: -10px;
+		top: 4px;
+	}
+.recovery{
+	width: 340px;
+	margin: 0 auto;
+	padding-top: 40px;
+	font-family: Tahoma, sans-serif;
+	color: #575757;
+}
+	.recovery h4{
+		font-size: 14px;
+	}
+	.recovery p{
+		font-size: 10px;
+		margin-top: 10px;
+	}
+.recovery .enter-btn{
+	margin-right: 20px;
+	margin-top: 50px;
+}
+.recovery input::-moz-placeholder{color: #a2a2a2;}
+.recovery input::-webkit-input-placeholder{color: #a2a2a2;}
+.recovery input::-ms-input-placeholder{color: #a2a2a2;}
+.login input::-moz-placeholder{color: #a2a2a2;}
+.login input::-webkit-input-placeholder{color: #a2a2a2;}
+.login input::-ms-input-placeholder{color: #a2a2a2;}
+
+.payment-logo{
+	display: block;
+	width: 145px;
+	height: 40px;
+	background: url(../images/payment-logo.jpg);
+	margin-top: 20px;
+}
+.payment{
+	border-bottom: 4px solid #ff8a85;
+	padding-bottom: 15px;
+}
+	.payment-block{
+		border: 1px solid #dedede;
+		padding: 10px 0 50px 35px;
+	}
+.payment-block input{
+	width: 200px;
+	height: 25px;
+	outline: 0;
+	border: 1px solid #dedede;
+	padding-left: 10px;
+}
+	.payment-block p{
+		color: #747474;
+		font-family: Tahoma ,sans-serif;
+		font-size: 12px;
+		padding-bottom: 5px;
+	}
+.enter-name .payment-input{
+	float: left;
+}
+	.enter-name .payment-input:last-child{
+		margin-left: 30px;
+	}
+	.payment-input{
+		margin-top: 20px;
+	}
+.select-country{
+	float: left;
+}
+.postal-code{
+	float: left;
+	margin-left: 30px;
+}
+.select-country select{
+	width: 200px;
+}
+.payment-country{
+	margin-top: 20px;
+}
+	.postal-code input{
+		width: 90px;
+	}
+.payment-section{
+	margin-top: 70px;
+}
+	.payment-section h3{
+		font-family: Arial, sans-serif;
+		font-size: 24px;
+		color: #303030;
+	}
+	.payment-section p.please{
+		font-family: Arial,sans-serif;
+		font-size: 12px;
+		color: #575757;
+		margin-top: 20px;
+		margin-bottom: 15px;
+	}
+.paypal-link{
+	width: 186px;
+	height: 35px;
+	display: block;
+	margin: auto;
+	background: url(../images/paypal.jpg);
+	margin-top: 30px;
+}
+.payment-wrapper{
+	padding-bottom: 200px;
+}
+.success{
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+	color: #575757;
+	overflow: hidden;
+	background: #fafafa;
+	border-bottom: 1px solid #f2f2f2;
+	margin-bottom: 80px;
+}
+	.success>.container{
+		padding: 160px 0 320px 240px;
+	}
+	.success p{
+		margin-top: 25px;
+	}
+		.success p:last-child{
+			margin-top: 35px;
+		}
+.basket-product-img{
+	width: 65px;
+	height: 65px;
+	float: left;
+	background-color: #e5e5e5;
+	margin-right: 15px;
+}
+	.table-cart{
+		width: 1000px;
+	}
+		.table-cart td{
+			vertical-align: middle;
+		}
+			
+	.table-value{
+		width: 30px;
+		height: 30px;
+		outline: 0;
+		border:1px solid #dedede;
+		text-align: center;
+	}
+	.table-cart thead td{
+		height: 40px;
+		background-color: #efefef;
+		font-family: Tahoma, sans-serif;
+		font-size: 11px;
+		color: #575757;
+	}
+	.table-cart tbody td{
+		height: 120px;
+		border-bottom: 1px solid #ebebeb;
+		font-family: Arial, sans-serif;
+		font-size: 12px;
+		color: #303030;
+	}
+		.table-cart tbody td span{
+			font-size: 11px;
+			color: #575757;
+		}
+		.basket-description{
+			padding-top: 15px;
+			line-height: 1.4;
+		}
+.table-row-1{
+	text-align: center;
+	width: 5%;
+}
+.table-row-2{
+	width: 65%;
+	padding-left: 100px;
+}
+.table-row-3{
+	width: 10%;
+	padding-left: 5px;
+}
+.cart{
+	margin-top: 80px;
+}
+	.cart h5{
+		font-family: Tahoma, sans-serif;
+		font-size: 12px;
+		font-weight: bold;
+		color: #575757;
+		padding-left: 20px;
+		padding-bottom: 10px;
+	}
+.choice{
+	overflow: hidden;
+	border-bottom: 1px solid #efefef;
+}
+.left-choice{
+	width: 50%;
+	float: left;
+	padding: 8px 20px 5px 20px;
+}
+.left-choice a{
+	width: 140px;
+	height: 30px;
+	display: inline-block;
+	text-align: center;
+	background: #efefef;
+	font-family: Tahoma, sans-serif;
+	font-size: 11px;
+	color: #424242;
+	padding-top: 8px;
+}
+.right-choice{
+	width: 50%;
+	float: right;
+	padding: 8px 50px 5px 0;
+}
+.right-choice a{
+	width: 140px;
+	height: 30px;
+	display: inline-block;
+	text-align: center;
+	background: #747474;
+	font-family: Tahoma, sans-serif;
+	font-size: 11px;
+	color: #fff;
+	padding-top: 8px;
+	text-transform: uppercase;
+	float: right;
+}
+	.shipping img{
+		float: left;
+	}
+.after-table-block{
+	width: 70%;
+	float: right;
+	padding-top: 30px;
+}
+.shipping{
+	float: left;
+	width: 325px;
+	height: 65px;
+	border: 1px solid #dedede;
+	padding-top: 8px;
+	padding-left: 10px;
+	margin-left: 70px;
+}
+	.shipping p{
+		font-family: Arial, sans-serif;
+		font-size: 11px;
+		color: #575757;
+		padding-bottom: 5px;
+		padding-top: 5px;
+	}
+	.shipping input{
+		font-family: Arial, sans-serif;
+		font-size: 10px;
+		color: #575757;
+		outline: 0;
+		border: 1px solid #dedede;
+		height: 20px;
+		padding-left: 5px;
+		width: 138px;
+	}
+	.shipping a{
+		display: inline-block;
+		text-align: center;
+		width: 85px;
+		height: 20px;
+		background-color: #dedede;
+		font-family: Arial, sans-serif;
+		font-size: 10px;
+		color: #424242;
+		position: relative;
+		top: -1px;
+		left: 10px;
+		padding-top: 4px;
+	}
+.total-cost{
+	float: right;
+	line-height: 2;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	color: #303030;
+	padding-right: 20px;
+}
+
+.total-cost .cost-info{
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #303030;
+}
+.total-cost .cost-price{
+	font-family: Arial, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	color: #424242;
+	padding-left: 40px;
+}
+.total-cost-link{
+	margin-top: 60px;
+}
+.total-cost-link a{
+	display: block;
+	width: 200px;
+	height: 35px;
+	text-align: center;
+	font-family: Tahoma, sans-serif;
+	font-size: 14px;
+	color: #fff;
+	margin-top: 10px;
+	padding-top: 3px;
+}
+	.total-cost-link a:first-child{
+		background-color: #a3d671;
+	}
+	.total-cost-link a:last-child{
+		background-color: #ffa094;
+	}
+.after-table{
+	overflow: hidden;
+	padding-bottom: 100px;
+}
+.help-form .create{
+	margin-top: 40px;
+}
+	.help-form h4{
+		font-size: 15px;
+		font-family: Arial, sans-serif;
+		color: #616161;
+
+	}
