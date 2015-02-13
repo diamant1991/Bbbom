@@ -1420,6 +1420,17 @@ footer{
 	overflow: hidden;
 	padding-bottom: 100px;
 }
+.help{
+	margin-top: 70px;
+	overflow: hidden;
+	padding-bottom: 100px;
+	border-bottom: 1px solid #f2f2f2;
+	margin-bottom: 100px;
+}
+.help-form{
+	margin-left: 100px;
+	margin-top: 30px;
+}
 .help-form .create{
 	margin-top: 40px;
 }
@@ -1427,5 +1438,137 @@ footer{
 		font-size: 15px;
 		font-family: Arial, sans-serif;
 		color: #616161;
+	}
 
+.help-list{
+	float: left;
+}
+	.help-list ul{
+		margin-top: 40px;
+		line-height: 2.2;
+	}
+		.help-list ul a{
+			color: #575757;
+			font-family: Tahoma, sans-serif;
+			font-size: 13px;
+			-webkit-transition: 0.1s ease-out;
+			-o-transition: 0.1s ease-out;
+			transition: 0.1s ease-out;
+		}	
+			.help-list ul a:hover, .help-list ul a.active{
+				color: #fe9f91;
+			}
+	.help-list h3{
+		text-transform: uppercase;
+		font-size: 17px;
+		font-family: Arial, sans-serif;
+		font-weight: bold;
+		color: #fe9f91;
+	}
+.question h5{
+	font-family: Tahoma,sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #303030;
+	padding-bottom: 10px;
+}
+.question{
+	line-height: 1.5;
+	margin-bottom: 40px;
+}
+.question p{
+	font-family: Tahoma,sans-serif;
+	font-size: 14px;
+	color: #303030;
+	
+}
+.question-block{
+	width: 740px;
+	margin-top: 0;
+}
+.account-right{
+	margin-left: 35px;
+	padding-top: 60px;
+	float: left;
+	padding-left: 70px;
+	width: 841px;
+	background-color: #fafafa;
+	padding-bottom: 200px;
+}
+	.my-account h3{
+		text-transform: uppercase;
+		font-weight: bold;
+		font-family: Arial, sans-serif;
+		font-size: 15px;
+		color: #575757;
+		padding-bottom: 20px;
+	}
+		.my-account table{
+			line-height: 3;
+			font-family: Tahoma, sans-serif;
+			font-size: 12px;
+			color: #707070;
+		}
+		.my-account table td{
+			width: 250px;
+		}
+.transform{
+	text-transform: uppercase;
+}
+.big-size{
+	font-size: 14px;
+}
+.my-account p{
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+	color: #747474;
+	font-weight: bold;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.account .bottom-list-account{
+	margin-top: 0;
+}
+.account h4{
+	font-family: Arial,sans-serif;
+	font-size: 13px;
+	color: #575757;
+	text-transform: uppercase;
+}
+.account .help-list{
+	margin-top: 60px;
+}
+	.account .change{
+		font-size: 10px;
+		font-family: Arial,sans-serif;
+		color: #303030;
+		font-weight: bold;
+		margin-top: 40px;
+	}
+.account{
+	overflow: hidden;
+	border-bottom: 1px solid #f2f2f2;
+}
+	.accout-input input{
+		width: 310px;
+		height: 40px;
+		outline: 0;
+		border: 1px solid #dedede;
+		padding-left: 15px;
+
+	}
+	.account-right input[type="submit"]{
+		width: 110px;
+		height: 30px;
+		text-align: center;
+		text-transform: uppercase;
+		outline: 0;
+		border: 0;
+		font-family: Tahoma, sans-serif;
+		font-size: 11px;
+		background-color: #fe9f91;
+		color: #fff;
+	}
+	.account-right input[type="submit"].cancel{
+		background-color: #bcbcbc;
 	}
