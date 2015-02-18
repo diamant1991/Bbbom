@@ -6,7 +6,7 @@
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	<![endif]-->
-	<title>change profile</title>
+	<title>order history</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="keywords" content="" >
 	<meta name="description" content="">
@@ -69,41 +69,53 @@
 					<ul class="top-list-account">
 						<li><a href="#">Мой Аккаунт</a></li>
 						<li><a href="#">Список Желаний</a></li>
-						<li><a href="#">Остория Заказов</a></li>
+						<li><a href="#" class="active">Остория Заказов</a></li>
 						<li><a href="#">Мои Отзывы</a></li>
 						
 					</ul>
 					<p class="change">изменить</p>
 					<ul class="bottom-list-account">
-						<li><a href="#" class="active">Личные Данные</a></li>
+						<li><a href="#">Личные Данные</a></li>
 						<li><a href="#">Пароль</a></li>
 						<li><a href="#">Адрес Доставки</a></li>
 					</ul>
 				</div>
 				<div class="account-right my-account change-profile">
-					<h3>Изменить личные данные</h3>
-					<form>
-						<div class="accout-input">
-							<p>Фамилия</p>
-							<input type="text" class="transform">
-						</div>
-						<div class="accout-input">
-							<p>Имя</p>
-							<input type="text" class="transform">
-						</div>
-						<div class="accout-input">
-							<p>Контактный телефон</p>
-							<input type="text">
-						</div>
-						<div class="accout-input">
-							<p>E-mail</p>
-							<input type="text">
-						</div>
-						<div class="account-submit">
-							<input type="submit" value="сохранить">
-							<input type="submit" value="отменить" class="cancel">
-						</div>	
-					</form>
+					<h3>история заказов</h3>
+					<table class="history-table">
+						<thead>
+							<tr>
+								<td>Дата</td>
+								<td>Номер заказа</td>
+								<td>Сумма заказа</td>
+								<td> Статус </td>
+								<td>Отслеживание</td>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Nov 10, 2014</td>
+								<td><a href="#">45Y4575634 </a> </td>
+								<td> <span class="cost">$20.000</span>   </td>
+								<td> Отправлен </td>
+								<td>EM12900891234 </td>
+							</tr>
+							<tr>
+								<td>Nov 10, 2014      </td>
+								<td><a href="#">45Y4575634 </a>  </td>
+								<td>  <span class="cost">$20.000</span>  </td>
+								<td> Отправлен </td>
+								<td>EM12900891234 </td>
+							</tr>
+							<tr>
+								<td>Nov 10, 2014      </td>
+								<td><a href="#">45Y4575634 </a> </td>
+								<td>  <span class="cost">$20.000</span>   </td>
+								<td> Отправлен </td>
+								<td>EM12900891234 </td>
+							</tr>
+						</tbody>
+					</table>
 				</div>
 			</div>
 		</div>
