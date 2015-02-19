@@ -276,9 +276,15 @@ nav{
 }
 .best-block{
 	width: 333px;
-	outline: 1px solid #efefef;
+	border: 1px solid #efefef;
 	float: left;
-	height: 391px;
+	height: 411px;
+}
+.last-best-block{
+	width: 334px !important;
+}
+.best-block .description{
+	padding: 10px;
 }
 .best-block >a{
 	display: block;
@@ -288,7 +294,7 @@ nav{
 	position: relative;
 }
 	.best-block >a:hover{
-		border: 1px solid #dfdfdf;
+		border-bottom: 1px solid #dfdfdf;
 	}
 .best-block a img{
 	position: absolute;
@@ -309,7 +315,7 @@ nav{
 		left:10px;
 	}
 .best-block-bottom{
-	width: 249.75px;
+	width: 250px;
 	float: left;
 	border: 1px solid #efefef;
 	height: 425px;
@@ -425,7 +431,7 @@ nav{
 	margin-top: 50px;
 }
 .mini-comment{
-	width: 50%;
+	width: 49.5%;
 	float: left;
 	padding-bottom: 40px;
 	padding-right: 40px;
@@ -1558,7 +1564,7 @@ footer{
 		padding-left: 15px;
 
 	}
-	.account-right input[type="submit"]{
+	.account-right input[type="submit"], .submit{
 		width: 110px;
 		height: 30px;
 		text-align: center;
@@ -1684,11 +1690,11 @@ footer{
 	margin-top: 5px;
 }
 .rating{
-	font-family: Arial, sans-serif;
-	font-size: 11px;
-	font-weight: bold;
-	font-style: italic;
-	color: #575757;
+	font-family: Arial, sans-serif !important;
+	font-size: 11px !important;
+	font-weight: bold !important;
+	font-style: italic !important;
+	color: #575757 !important;
 }
 .delete{
 	float: right;
@@ -1747,4 +1753,173 @@ footer{
 	font-size: 12px !important;
 	color: #5e5e5e !important;
 	font-weight: 400 !important;
+}
+.input-submit{
+	float: right;
+}
+.titlebar{
+	border: 1px solid #dedede;
+	width: 450px;
+	height: 36px;
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #575757;
+	padding-left: 10px;
+	outline: 0;
+}
+.review-textarea{
+	width: 100%;
+	height: 120px;
+	outline: 0;
+	resize:none;
+	border: 1px solid #dedede;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	color: #575757;
+	padding: 10px;
+}
+.p-head{
+	font-family: Arial, sans-serif !important;
+	font-size: 11px !important;
+	font-weight: bold !important;
+	color: #575757 !important;
+}
+.important{
+	font-family: Arial, sans-serif !important;
+	font-size: 10px !important;
+	color: #575757 !important;
+	font-weight: bold !important;
+	margin: 0 !important;
+ }
+.red{
+	color: #ff5817 !important;
+	margin-top: 10px !important;
+}
+.color{
+	background-color: #bcbcbc !important;
+}
+.input-submit{
+	margin-top: 20px;
+}
+.section-tovars .refresh{
+	right: auto !important;
+}
+.margin-top-0{
+	margin-top: 0 !important;
+}
+.rating-please{
+	font-size: 11px !important;
+}
+.add-photo{
+	position: absolute;
+	right: 0;
+	top: 20%;
+}
+	.add-photo a{
+		font-family: Arial, sans-serif;
+		font-size: 9px;
+		color: #575757;
+	}
+		.add-photo a span{
+			position: relative;
+			top: -20px;
+		}
+.my-tovars header .label-input{
+	font-family: Tahoma, sans-serif;
+	font-size: 11px;
+	color: #747474;
+	margin-left: 5px;
+}
+.my-tovars header{
+	padding-left: 20px;
+	padding-top: 10px;
+}
+.my-tovars header input{
+	position: relative;
+	top: 2px;
+	margin-left: 10px;
+}
+.my-tovars .code-image input{
+	text-align: center;
+	outline:0;
+}
+.delete-icon{
+	display: block;
+	width: 17px;
+	height: 16px;
+	background-image: url(../images/delete.png);
+	position: absolute;
+	right: -4px;
+	bottom: -3px;
+}
+.delete-image{
+	position: absolute;
+	right: 10%;
+	top: 5%;
+}
+	.delete-image-block{
+		display: inline-block;
+		position: relative;
+	}
+.my-tovars-info{
+	padding-left: 10px;
+}
+.my-comment-block p{
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	font-style: italic;
+	color: #575757;
+	line-height: 1.3;
+	margin-top: 20px;
+}
+.add-comment{
+	font-family: Tahoma, sans-serif;
+	font-size: 11px;
+	color: #303030;
+}
+.mini-review-product{
+	margin-top: 30px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #e3e3e3;
+}
+.great{
+	font-family: Arial,sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #575757;
+	text-transform: uppercase;
+	padding-bottom: 10px;
+}
+.how-review{
+	float: right;
+	color: #575757;
+	text-decoration: underline;
+	font-family: Arial,sans-serif;
+	font-size: 11px;
+	font-style: italic;
+	display: inline-block;
+	margin: 10px 0;
+}
+	.how-review:hover{
+		text-decoration: none;
+	}
+.left-group{
+	text-align: center;
+	padding-top: 15px;
+}
+.right-group h3:after{
+	content: "-10%";
+	display: inline-block;
+	position: relative;
+	top: 10px;
+	left: 10px;
+	width: 57px;
+	height: 30px;
+	background-image: url(../images/sale-group.png);
+	background-repeat: no-repeat;
+	font-family: Arial, sans-serif;
+	color: #fff;
+	text-align: center;
+	padding-top: 5px;
 }
