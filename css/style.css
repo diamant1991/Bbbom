@@ -53,7 +53,7 @@
 	width: 160px;
 	padding-right: 20px;
 	position: absolute;
-	right: 0;
+	right: 9px;
 }
 .shop-cart{
 	width: 37px;
@@ -202,7 +202,7 @@ nav{
 	text-transform: uppercase;
 }
 .nh-block{
-	width: 250px;
+	width: 200px;
 	float: left;
 }
 .new-and-hot>.container{
@@ -285,6 +285,7 @@ nav{
 }
 .best-block .description{
 	padding: 10px;
+	position:relative;
 }
 .best-block >a{
 	display: block;
@@ -360,8 +361,9 @@ nav{
 	border-top: 1px solid #000;
 }
 .heart{
-	display: inline-block;
+	display: block;
 	width: 19px;
+	float:left;
 	height: 16px;
 	background: url(../images/heart.png);
 
@@ -435,6 +437,13 @@ nav{
 	float: left;
 	padding-bottom: 40px;
 	padding-right: 40px;
+	padding-left:20px;
+	background:#fafafa;
+	margin-top:10px;
+	padding-top:20px;
+}
+.mini-review .mini-comment:nth-child(2n){
+	margin-left:1%;
 }
 	.mini-comment .mini-comment-block{
 		width: 85%;
@@ -456,6 +465,10 @@ nav{
 	}
 .mini-comment-block{
 	line-height: 1.5;
+}
+.sale-span{
+	position:absolute !important;
+	bottom:43px;
 }
 .mini-comment-block .info-com{
 	font-family: Tahoma, sans-serif;
@@ -507,6 +520,7 @@ nav{
 	overflow: hidden;
 	background: #f7f7f7;
 	padding-bottom: 30px;
+	margin-top:70px;
 }
 footer{
 	padding-top: 50px;
@@ -537,6 +551,10 @@ footer{
 }
 footer>.container ul:first-child{
 	margin-left: 0;
+}
+.footer-drop-right{
+	position:relative;
+	top:-5px;
 }
 .footer-drop-right a{
 	line-height: 2.5;
