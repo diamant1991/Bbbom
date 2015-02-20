@@ -202,9 +202,12 @@ nav{
 	text-transform: uppercase;
 }
 .nh-block{
-	width: 200px;
+	width: 250px;
 	float: left;
 }
+	.nh-block-container{
+		width: 200px;
+	}
 .new-and-hot>.container{
 	position: relative;
 }
@@ -350,6 +353,7 @@ nav{
 	}
 	.best-block-bottom .description{
 		padding: 15px 0 0 15px;
+		position: relative;
 	}
 .best-block-bottom .number p.two-n{
 	left: -1px;
@@ -470,6 +474,11 @@ nav{
 	position:absolute !important;
 	bottom:43px;
 }
+.sale-span-2{
+	position: absolute !important;
+	bottom: 33px;
+
+}
 .mini-comment-block .info-com{
 	font-family: Tahoma, sans-serif;
 	font-size: 11px;
@@ -554,7 +563,7 @@ footer>.container ul:first-child{
 }
 .footer-drop-right{
 	position:relative;
-	top:-5px;
+	top:-6px;
 }
 .footer-drop-right a{
 	line-height: 2.5;
@@ -1016,7 +1025,8 @@ footer{
 	overflow: hidden;
 }
 .login{
-	padding-top: 100px;
+	border-bottom: 1px solid #f3f3f3;
+	overflow: hidden;
 }
 .registration-block, .help-form{
 	float: left;
@@ -1026,7 +1036,7 @@ footer{
 	.registration-block h4{
 		font-family: Tahoma, sans-serif;
 		font-size: 14px;
-		color: #ffa192;
+		color: #5e5e5e;
 	}
 	.enter-block h4{
 		font-family: Tahoma, sans-serif;
@@ -1089,8 +1099,20 @@ footer{
 	}
 .enter-block{
 	width: 320px;
-	float: right;
 }
+.enter-block-container{
+	float: right;
+	width: 400px;
+	background: #fafafa;
+	padding-top: 120px;
+	padding-left: 40px;
+	padding-bottom: 240px;
+}
+.registration-block-container{
+	padding-top: 113px;
+	float: left;
+}
+
 .enter-block .forgot-password{
 	float: right;
 	font-family: Tahoma, sans-serif;
@@ -1127,7 +1149,7 @@ footer{
 .recovery{
 	width: 340px;
 	margin: 0 auto;
-	padding-top: 40px;
+	padding-top: 132px;
 	font-family: Tahoma, sans-serif;
 	color: #575757;
 }
@@ -1445,15 +1467,19 @@ footer{
 	padding-bottom: 100px;
 }
 .help{
-	margin-top: 70px;
 	overflow: hidden;
-	padding-bottom: 100px;
 	border-bottom: 1px solid #f2f2f2;
 	margin-bottom: 100px;
 }
-.help-form{
-	margin-left: 100px;
-	margin-top: 30px;
+
+.help-form-container{
+	float: left;
+	overflow: hidden;
+	width: 840px;
+	background: #fafafa;
+	padding-top: 90px;
+	padding-left: 80px;
+	padding-bottom: 100px;
 }
 .help-form .create{
 	margin-top: 40px;
@@ -1466,6 +1492,11 @@ footer{
 
 .help-list{
 	float: left;
+	
+}
+.help-list-container{
+	padding-right: 15px;
+	padding-top: 70px;
 }
 	.help-list ul{
 		margin-top: 40px;
@@ -1487,7 +1518,7 @@ footer{
 		font-size: 17px;
 		font-family: Arial, sans-serif;
 		font-weight: bold;
-		color: #fe9f91;
+		color: #616161;
 	}
 .question h5{
 	font-family: Tahoma,sans-serif;
@@ -1499,6 +1530,7 @@ footer{
 .question{
 	line-height: 1.5;
 	margin-bottom: 40px;
+	width: 740px;
 }
 .question p{
 	font-family: Tahoma,sans-serif;
@@ -1507,8 +1539,11 @@ footer{
 	
 }
 .question-block{
-	width: 740px;
-	margin-top: 0;
+	width: 840px;
+	background: #fafafa;
+	padding-top: 68px;
+	padding-left: 50px;
+	padding-bottom: 300px;
 }
 .account-right{
 	margin-left: 35px;
@@ -1669,6 +1704,18 @@ footer{
 		margin-top: 15px;
 		line-height: 1.3;
 	}
+	.recipient-info-block p{
+		font-size: 12px;
+	}
+.my-account h3 span{
+	text-transform: none !important;
+}
+.login-parol{
+	background: #fafafa;
+	padding-bottom: 132px;
+}
+
+
 .my-account .history-finished p{
 	margin: 0;
 	font-family: Arial, sans-serif;
