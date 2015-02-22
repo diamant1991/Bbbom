@@ -3,7 +3,7 @@
     top: 0;
     left: 0; 
 	z-index: 9999; 
-	display: none; /*--по умолчанию скрыт--*/
+	 /*--по умолчанию скрыт--*/
 	width: 100%;
     height: 100%;
 	background: #474867;
@@ -15,21 +15,21 @@
     top: 0;
     left: 0; 
     z-index: 9999; 
-    display: none; /*--по умолчанию скрыт--*/
+     /*--по умолчанию скрыт--*/
     width: 100%;
     height: 100%;
     background: #b3b3b3;
+    display: none;
     opacity: .70;/* Полупрозрачность слоя затемнения */
     filter:progid:DXImageTransform.Microsoft.Alpha(opacity=70);
 }
 /*--Модальное окно--*/
 .popup_block{
 	position: fixed;
-	top: 45%;
-    left: 50%;
+	top: 20%;
+    left: 32%;
 	z-index: 99999;
-	display: none; /*--по умолчанию скрыт--*/
-	float: left;
+	 /*--по умолчанию скрыт--*/
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box; 
     box-sizing: content-box;
@@ -37,6 +37,8 @@
 	background: #fff;
 	font-size: .9em;
     text-align: center;
+    width: 590px;
+    display: none;
 }
     .popup_block h3{
         font-family: 'Appetite';
@@ -50,9 +52,3 @@
         font-size: 15px;
         color: #484967;
     }
-*html #fade {
-	position: absolute;
-}
-*html .popup_block {
-	position: absolute;
-}

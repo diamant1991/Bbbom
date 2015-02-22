@@ -535,7 +535,7 @@ footer{
 	padding-top: 50px;
 }
 .footer-drop-child a{
-	color: #4c4c4c;
+	color: #858585;
 	font-family: Arial, sans-serif;
 	font-size: 9px;
 	text-transform: uppercase;
@@ -561,6 +561,15 @@ footer{
 footer>.container ul:first-child{
 	margin-left: 0;
 }
+.footer-drop-child-right{
+	margin-top: 55px;
+	margin-bottom: 30px;
+}
+	.footer-drop-child-right a{
+		font-size: 10px;
+		font-weight: bold;
+		color: #575757;
+	}
 .footer-drop-right{
 	position:relative;
 	top:-6px;
@@ -797,7 +806,10 @@ footer>.container ul:first-child{
 		.pagination ul li a:hover, .pagination ul li a.active{
 			background: #efefef;
 		}
-.group{margin-top: 20px;}
+.group{
+	margin-top: 20px;
+	position: relative;
+}
 
 .left-group{
 	width: 350px;
@@ -815,6 +827,8 @@ footer>.container ul:first-child{
 		font-family: Tahoma, sans-serif;
 		font-size: 18px;
 		color: #000;
+		width: 65%;
+		line-height: 1.4;
 	}
 .left-group-block{
 	line-height: 2;
@@ -858,6 +872,10 @@ footer>.container ul:first-child{
 	top:-3px;
 	left: 2px;
 }
+	.review-group span.review-pos{
+		top: -9px;
+		left: 7px;
+	}
 .group-info span{
 	font-family: Arial,sans-serif;
 	font-size: 11px;
@@ -873,12 +891,16 @@ footer>.container ul:first-child{
 		left: 45px;
 	}
 .right-group-block{
-	width: 30%;
-	float: right;
+	width: 20%;
+	position: absolute;
+	right: 0;
+	top: 0;
 	font-family: Arial, sans-serif;
 	font-size: 11px;
 	color: #303030;
 	line-height: 1.7;
+	background-color: #fafafa;
+	padding: 30px 20px;
 }
 	.right-group-block .cost{
 		margin-top: 30px;
@@ -906,7 +928,7 @@ footer>.container ul:first-child{
 		left: 38px;
 	}
 	.right-group-block .group-btn{
-		margin-top: 70px;
+		margin-top: 30px;
 	}
 		.group-btn a{
 			display: block;
@@ -916,7 +938,7 @@ footer>.container ul:first-child{
 			color: #fff;
 			font-family: Tahoma, sans-serif;
 			font-size: 13px;
-			padding-top: 5px;
+			padding-top: 6px;
 			margin: 0 auto;
 		}
 			.group-btn a:first-child{
@@ -961,6 +983,15 @@ footer>.container ul:first-child{
 		border-bottom: 1px solid #ff7964;
 		padding-bottom: 5px;
 	}
+.choice-text{
+	font-family: Tahoma, sans-serif;
+	font-size: 11px;
+	color: #ff5817;
+	text-align: center;
+	margin-top: 30px;
+}
+
+
 .about-block-img{
 	width: 785px;
 	height: 593px;
@@ -1027,6 +1058,7 @@ footer{
 .login{
 	border-bottom: 1px solid #f3f3f3;
 	overflow: hidden;
+	position: relative;
 }
 .registration-block, .help-form{
 	float: left;
@@ -1041,7 +1073,7 @@ footer{
 	.enter-block h4{
 		font-family: Tahoma, sans-serif;
 		font-size: 14px;
-		margin-bottom: 14px;
+		
 	}
 	.create{
 		width: 320px;
@@ -1080,6 +1112,9 @@ footer{
 		margin-top: 25px;
 		position: relative;
 	}
+		.code-image.code-image-margin{
+			margin-top: 10px;
+		}
 	.code-image input{
 		width: 130px;
 		float: left;
@@ -1102,10 +1137,10 @@ footer{
 }
 .enter-block-container{
 	float: right;
-	width: 400px;
+	width: 420px;
 	background: #fafafa;
 	padding-top: 120px;
-	padding-left: 40px;
+	padding-left: 80px;
 	padding-bottom: 240px;
 }
 .registration-block-container{
@@ -1247,6 +1282,9 @@ footer{
 	background: url(../images/paypal.jpg);
 	margin-top: 30px;
 }
+.margin-bottom-25{
+	margin-bottom: 25px !important;
+}
 .payment-wrapper{
 	padding-bottom: 200px;
 }
@@ -1316,12 +1354,13 @@ footer{
 	width: 5%;
 }
 .table-row-2{
-	width: 65%;
+	width: 55%;
 	padding-left: 100px;
 }
 .table-row-3{
-	width: 10%;
+	width: 13%;
 	padding-left: 5px;
+	text-align: center;
 }
 .cart{
 	margin-top: 80px;
@@ -1357,10 +1396,10 @@ footer{
 .right-choice{
 	width: 50%;
 	float: right;
-	padding: 8px 50px 5px 0;
+	padding: 8px 65px 5px 0;
 }
 .right-choice a{
-	width: 140px;
+	width: 145px;
 	height: 30px;
 	display: inline-block;
 	text-align: center;
@@ -1396,15 +1435,10 @@ footer{
 		padding-bottom: 5px;
 		padding-top: 5px;
 	}
-	.shipping input{
-		font-family: Arial, sans-serif;
-		font-size: 10px;
-		color: #575757;
-		outline: 0;
-		border: 1px solid #dedede;
+	.shipping select{
+		width: 138px;
 		height: 20px;
 		padding-left: 5px;
-		width: 138px;
 	}
 	.shipping a{
 		display: inline-block;
@@ -1426,7 +1460,7 @@ footer{
 	font-family: Arial, sans-serif;
 	font-size: 16px;
 	color: #303030;
-	padding-right: 20px;
+	padding-right: 30px;
 }
 
 .total-cost .cost-info{
@@ -1442,6 +1476,13 @@ footer{
 	color: #424242;
 	padding-left: 40px;
 }
+	.total-cost .cost-price.regular{
+		font-weight: 400;
+	}
+	.total-cost .cost-price.over{
+		font-size: 16px;
+		color: #303030;
+	}
 .total-cost-link{
 	margin-top: 60px;
 }
@@ -1470,6 +1511,7 @@ footer{
 	overflow: hidden;
 	border-bottom: 1px solid #f2f2f2;
 	margin-bottom: 100px;
+	position: relative;
 }
 
 .help-form-container{
@@ -1482,7 +1524,7 @@ footer{
 	padding-bottom: 100px;
 }
 .help-form .create{
-	margin-top: 40px;
+	margin-top: 30px;
 }
 	.help-form h4{
 		font-size: 15px;
@@ -1605,6 +1647,7 @@ footer{
 		margin-top: 40px;
 	}
 .account{
+	position: relative;
 	overflow: hidden;
 	border-bottom: 1px solid #f2f2f2;
 	min-width: 1000px;
@@ -1730,11 +1773,15 @@ footer{
 	margin-top: 50px;
 }
 .width-td{
-	width: 65% !important;
+	width: 55% !important;
 }
 	.width-td-2{
-	width: 10% !important;
+	width: 15% !important;
 }
+	.width-td-3{
+		width: 15% !important;
+		text-align: center;
+	}
 .my-account .history-finished tbody tr td{
 	height: 120px;
 	vertical-align: middle;
@@ -1746,8 +1793,9 @@ footer{
 	vertical-align: middle;
 }
 .my-account .history-finished thead tr td:first-child, .my-account .history-finished tbody tr td:first-child{
-	padding-left: 50px;
+	
 }
+
 .padding-left{
 	padding-left: 15px !important;
 }
@@ -1786,7 +1834,6 @@ footer{
 .section-tovars{
 	position: relative;
 	padding-top: 30px;
-	border-bottom: 1px solid #ebebeb;
 	overflow: hidden;
 	padding-bottom: 30px;
 }
@@ -1976,9 +2023,10 @@ footer{
 .right-group h3:after{
 	content: "-10%";
 	display: inline-block;
-	position: relative;
+	position: absolute;
+	z-index: 2;
 	top: 10px;
-	left: 10px;
+	right: 10px;
 	width: 57px;
 	height: 30px;
 	background-image: url(../images/sale-group.png);
@@ -1987,4 +2035,99 @@ footer{
 	color: #fff;
 	text-align: center;
 	padding-top: 5px;
+}
+.account-right:after{
+	content: "";
+	display: block;
+	position: absolute;
+	height: 100%;
+	background:#fafafa;
+	width: 50%;
+	top: 0;
+	right: 0;
+	z-index: -1;
+}
+.change-profile:after{
+	content: "";
+	display: block;
+	position: absolute;
+	height: 100%;
+	background:#fafafa;
+	width: 50%;
+	top: 0;
+	right: 0;
+	z-index: -1;
+}
+.my-account:after{
+	content: "";
+	display: block;
+	position: absolute;
+	height: 100%;
+	background:#fafafa;
+	width: 50%;
+	top: 0;
+	right: 0;
+	z-index: -1;
+}
+.help-form-container:after{
+	content: "";
+	display: block;
+	position: absolute;
+	height: 100%;
+	background:#fafafa;
+	width: 50%;
+	top: 0;
+	right: 0;
+	z-index: -1;
+}
+.footer-drop-other{
+	width: 200px;
+	margin-left: 0;
+}
+.enter-block-container:after{
+	content: "";
+	display: block;
+	position: absolute;
+	height: 100%;
+	background:#fafafa;
+	width: 30%;
+	top: 0;
+	right: 0;
+	z-index: -1;
+}
+.wrapper-after:after{
+	content: "";
+	display: block;
+	width: 100%;
+	height: 140px;
+	clear: both;
+}
+.account-bottom{
+	margin-bottom: 30px;
+}
+.my-reviews{
+	padding-bottom: 100px;
+}
+.question-block:after{
+	content: "";
+	display: block;
+	position: absolute;
+	height: 100%;
+	background:#fafafa;
+	width: 30%;
+	top: 0;
+	right: 0;
+	z-index: -1;
+}
+.history-finished tbody input{
+	position: relative;
+	top: -24px;
+}
+	.history-finished tbody img{
+		position: relative;
+		left: 5px;
+	}
+.img-pos{
+	position: relative;
+	left: 15px !important;
 }
