@@ -9,6 +9,12 @@
          font-weight: normal;
 		 font-style: normal;
 }
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+}
 .wrapper{
 	height: auto;
 	min-height: 100%;
@@ -436,11 +442,14 @@ nav{
 .mini-review{
 	margin-top: 50px;
 }
+	.mini-review li{
+		float: left;
+		width: 50%;
+	}
 .mini-comment{
-	width: 49.5%;
-	float: left;
+	width: 100%;
 	padding-bottom: 40px;
-	padding-right: 40px;
+	padding-right: 20px;
 	padding-left:20px;
 	background:#fafafa;
 	margin-top:10px;
